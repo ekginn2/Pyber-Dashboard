@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -11,7 +10,7 @@
     <br>
 
     <p>
-      <img src="pyberbubble.png" alt="Pyber Bubble Chart" width="100" height="100" align="left">
+      <img src="pyberbubble.png" alt="Pyber Bubble Chart" width="500" height="500" align="left">
       The purpose of this project was to analyze the relationship between four key variables:
       average fare per city, total number of rides per city, total number of drivers per city, and the city type (urban, suburban, or rural).
       The dataset contained information about each of Pyber's active driver and historic rides, including details like city, driver count, individual fares, and city type.
