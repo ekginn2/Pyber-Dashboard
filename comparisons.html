@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Bootstrap Visualization Dashboard - Pyber Analysis</title>
+    <title>Bootstrap Visualization Dashboard - Comparison</title>
 
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -59,54 +59,62 @@
 
     <div class="row">
       <div class="col-md-12">
-        <h1>Pyber Analysis</h1>
-      </div>
+        <h1>Comparisons: </h1>
+        <hr>
+        <br>
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p>Click on any plot to get an in-depth analysis.</p>
+        <br>
+        </div>
     </div>
 
 
     <div class="row">
 
-     <div class="col-md-7">
-       <h2>Summary: Opportunities in the Ride-Sharing Market</h2>
+     <div class="col-md-6">
+       <h3>Rides vs Fares by City Type</h3>
        <hr>
        <br><br>
+       <img src="pyberbubble.png" alt="Pyber Bubble Chart" height="350" align = "center"><br>
+
+
      </div>
 
-     <div class="col-md-5" align = "right">
-       <h2>Visualizations</h2><br>
+     <div class="col-md-6">
+       <h3>% Total Drivers by City Type</h3>
        <hr>
+       <br><br>
+       <img src="pyberdrivers.png" alt="Pyber Drivers" height="350" align = "center"><br>
      </div>
 
     </div>
+
 
     <div class="row">
 
-     <div class="col-md-7">
-       <p>
-         <img src="pyberbubble.png" alt="Pyber Bubble Chart" height="300" align="left">
-         The purpose of this project was to analyze the relationship between four key variables:
-         average fare per city, total number of rides per city, total number of drivers per city, and the city type (urban, suburban, or rural).
-         The dataset contained information about each of Pyber's active driver and historic rides, including details like city, driver count, individual fares, and city type.
-         <br><br>To accomplish this, I used pandas and numpy to build the dataset and parse it into readable dataframe. I then used matplotlib to plot various aspects of the data,
-         namely the trends for rides, drivers, and fares in different city types. This site provides the source data and visualizations created as part of the analysis,
-          as well as descriptions of any correlations observed.
-      </p>
+     <div class="col-md-6">
+       <h3>% Total Rides by City Type</h3>
+       <hr>
+       <br><br>
+        <img src="pyberrides.png" alt="Pyber Rides" height="350" align = "center"><br>
      </div>
 
-     <div class="col-md-5">
-       <a href="bubble.html"> <img src="pyberbubble.png" alt="Pyber Bubble Chart" height="200" align = "right"></a>
-       <a href="drivers.html"> <img src="pyberdrivers.png" alt="Pyber Drivers" height="200" align = "right"></a>
-       <a href="rides.html"> <img src="pyberrides.png" alt="Pyber Rides" height="200" align = "right"></a>
-       <a href="fares.html"> <img src="pyberfares.png" alt="Pyber Fares" height="200" align = "right"></a>
-
+     <div class="col-md-6">
+       <h3>% Total Fares by City Type</h3>
+       <hr>
+       <br><br>
+       <img src="pyberfares.png" alt="Pyber Fares" height="350" align = "center"><br>
      </div>
 
     </div>
 
+    
   </div>
 
-<h4>Erica Rosa <br>
-GT Coding Bootcamp 2018</h4>
   </body>
 
 </html>
